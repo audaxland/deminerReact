@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React De-miner Game",
+  "name": "A react version of the classical de-miner game",
   "icons": [
     {
       "src": "favicon.ico",
