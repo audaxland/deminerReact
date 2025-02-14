@@ -59,7 +59,7 @@ const GameCell = ({ value, playCell, flagCell }) => {
             {/* the square size is computed based on the dimensions of the window and the number of cells on the board */}
             <div
                 className={ cellClasses }
-                onMouseUp={ playCell }
+                onMouseUp={ e => {e.button === 0 && playCell()} }
                 onContextMenu={ flagCell }
                 style={{
                     width: squareSize,
